@@ -11,7 +11,7 @@ A step by step series of examples that tell you have to get a development env ru
 Get repository
 
 ```
-go get github.com/algoGuy/easyMIDI/...
+go get github.com/algoGuy/EasyMIDI/...
 ```
 
 ## How To Use
