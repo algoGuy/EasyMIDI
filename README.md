@@ -9,7 +9,7 @@ A step by step series of examples that tell you have to get a development env ru
 Get repository
 
 ```
-go get github.com/algoguy/EasyMidi
+go get github.com/algoGuy/easyMIDI
 ```
 
 ## How To Use
@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"os"
 
-	"bitbucket.org/NewStreeter/MIDIParser/smfio"
+	"github.com/algoGuy/smfio"
 )
 
 func main() {
@@ -62,8 +62,8 @@ import (
 	"log"
 	"os"
 
-	"bitbucket.org/NewStreeter/MIDIParser/smf"
-	"bitbucket.org/NewStreeter/MIDIParser/smfio"
+	"github.com/algoGuy/smf"
+	"github.com/algoGuy/smfio"
 )
 
 func main() {

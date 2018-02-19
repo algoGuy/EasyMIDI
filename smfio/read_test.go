@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"bitbucket.org/NewStreeter/MIDIParser/smf"
+	"github.com/algoGuy/EasyMIDI/smf"
 )
 
 func TestReadNilReader(t *testing.T) {

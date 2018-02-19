@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"io"
 
-	"bitbucket.org/NewStreeter/MIDIParser/smf"
-	"bitbucket.org/NewStreeter/MIDIParser/vlq"
+	"github.com/algoGuy/EasyMIDI/smf"
+	"github.com/algoGuy/EasyMIDI/vlq"
 )
 
 //parseEvent parse next events from reader

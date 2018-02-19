@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"bitbucket.org/NewStreeter/MIDIParser/smf"
+	"github.com/algoGuy/EasyMIDI/smf"
 )
 
 const minMThdDataSize uint32 = 6

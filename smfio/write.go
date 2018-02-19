@@ -3,7 +3,7 @@ package smfio
 import (
 	"io"
 
-	"bitbucket.org/NewStreeter/MIDIParser/smf"
+	"github.com/algoGuy/EasyMIDI/smf"
 )
 
 //Write save MIDI to writer

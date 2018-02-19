@@ -1,7 +1,7 @@
 package smfio
 
 import "testing"
-import "bitbucket.org/NewStreeter/MIDIParser/smf"
+import "github.com/algoGuy/EasyMIDI/smf"
 
 func TestWriteNilWriter(t *testing.T) {
 

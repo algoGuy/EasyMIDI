@@ -1,7 +1,7 @@
 package smf
 
 import "testing"
-import "bitbucket.org/NewStreeter/MIDIParser/vlq"
+import "github.com/algoGuy/EasyMIDI/vlq"
 
 import "bytes"
 

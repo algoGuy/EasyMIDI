@@ -1,7 +1,7 @@
 package smf
 
 import "fmt"
-import "bitbucket.org/NewStreeter/MIDIParser/vlq"
+import "github.com/algoGuy/EasyMIDI/vlq"
 
 //MIDI Event status
 const (

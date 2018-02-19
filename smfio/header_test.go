@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"bitbucket.org/NewStreeter/MIDIParser/smf"
+	"github.com/algoGuy/EasyMIDI/smf"
 )
 
 func TestDivisionToBytes(t *testing.T) {

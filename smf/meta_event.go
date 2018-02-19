@@ -3,7 +3,7 @@ package smf
 import (
 	"fmt"
 
-	"bitbucket.org/NewStreeter/MIDIParser/vlq"
+	"github.com/algoGuy/EasyMIDI/vlq"
 )
 
 //MetaStatus for all Meta events

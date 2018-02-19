@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"bitbucket.org/NewStreeter/MIDIParser/vlq"
+	"github.com/algoGuy/EasyMIDI/vlq"
 )
 
 func TestNewSysexEvent(t *testing.T) {
