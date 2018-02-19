@@ -1,15 +1,4 @@
-#build our docker image with name newstreeter/midiparser
-#docker build -t newstreeter/midiparser .
-
-#run our docker container afterwards remove himself
-#docker run --rm -it newstreeter/midiparser:latest
-
-#Docker Remove All <none> images (only run in bash terminal)
-#docker rmi $(docker images -f "dangling=true" -q)
-
 ################################################################
-
-
 
 #name of base image
 FROM golang:alpine
