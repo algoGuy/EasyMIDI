@@ -13,8 +13,6 @@ go get github.com/algoguy/EasyMidi
 ```
 
 ## How To Use
-
-Some examples how can you use midi parser...
 #### Example 1. Read and get data from midi file.
 ```go
 package main
@@ -55,7 +53,7 @@ func main() {
 }
 ```
 #### Example 2. Create and write one midi track into new midi file.
-Created midi file from scratch. In current example output midi must contains one note with 5 second duration time.
+Created midi file from scratch. In current example output midi must contains one note.
 ```go
 package main
 
@@ -125,9 +123,9 @@ func checkErr(err error) {
 
 ## Authors
 
-* **Alexander Zheldakov** - *main developer* - [streeter](https://github.com/algoguy)
+* **algoGuy** - *main developer* - [algoGuy](https://github.com/algoGuy)
 * **iqhater** - *main contributer* - [iqhater](https://github.com/iqhater)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
