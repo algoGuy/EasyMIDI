@@ -102,7 +102,7 @@ func main() {
 	checkErr(err)
 
 	// Save to new midi source file
-	outputMidi, err := os.OpenFile("outputMidi.mid", os.O_CREATE|os.O_TRUNC, 0666)
+	outputMidi, err := os.Create("outputMidi.mid")
 	checkErr(err)
 	defer outputMidi.Close()
 
