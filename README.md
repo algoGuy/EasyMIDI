@@ -12,7 +12,7 @@ A step by step series of examples that tell you have to get a development env ru
 Get repository
 
 ```
-go get github.com/algoGuy/easyMIDI
+go get github.com/algoGuy/EasyMIDI/...
 ```
 
 ## How To Use
@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/algoGuy/smfio"
+	"github.com/algoGuy/EasyMIDI/smfio"
 )
 
 func main() {
@@ -65,8 +65,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/algoGuy/smf"
-	"github.com/algoGuy/smfio"
+	"github.com/algoGuy/EasyMIDI/smf"
+	"github.com/algoGuy/EasyMIDI/smfio"
 )
 
 func main() {
