@@ -1,6 +1,7 @@
 # EasyMidi
 
 [![codecov](https://codecov.io/gh/algoGuy/EasyMIDI/branch/master/graph/badge.svg)](https://codecov.io/gh/algoGuy/EasyMIDI) [![Build Status](https://semaphoreci.com/api/v1/algoguy/easymidi/branches/master/badge.svg)](https://semaphoreci.com/algoguy/easymidi) [![Go Report Card](https://goreportcard.com/badge/github.com/algoGuy/EasyMIDI)](https://goreportcard.com/report/github.com/algoGuy/EasyMIDI)
+[![GoDoc](https://godoc.org/github.com/algoGuy/EasyMIDI?status.svg)](https://godoc.org/github.com/algoGuy/EasyMIDI)
 
 EasyMidi is a simple and reliable library for working with standard midi file (SMF).
 
