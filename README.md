@@ -2,6 +2,7 @@
 
 [![codecov](https://codecov.io/gh/algoGuy/EasyMIDI/branch/master/graph/badge.svg)](https://codecov.io/gh/algoGuy/EasyMIDI) [![Build Status](https://semaphoreci.com/api/v1/algoguy/easymidi/branches/master/badge.svg)](https://semaphoreci.com/algoguy/easymidi) [![Go Report Card](https://goreportcard.com/badge/github.com/algoGuy/EasyMIDI)](https://goreportcard.com/report/github.com/algoGuy/EasyMIDI)
 [![GoDoc](https://godoc.org/github.com/algoGuy/EasyMIDI?status.svg)](https://godoc.org/github.com/algoGuy/EasyMIDI)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/avelino/awesome-go#audio-and-music)
 
 EasyMidi is a simple and reliable library for working with standard midi file (SMF).
 
@@ -41,7 +42,7 @@ func main() {
 		fmt.Println(err)
 	}
 
-	// Get zero track from
+	// Get zero track
 	track := midi.GetTrack(0)
 
 	// Print number of midi tracks
